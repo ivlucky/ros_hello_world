@@ -4,6 +4,7 @@
 /usr/sbin/xrdp-sesman
 
 # Run xrdp in foreground if no commands specified
+# TODO: add check process existance
 if [ -z "$1" ]; then
     /usr/sbin/xrdp --nodaemon
 else

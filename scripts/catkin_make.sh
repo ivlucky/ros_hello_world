@@ -9,5 +9,4 @@ else
     # code if not found
     echo $line_source >> ~/.bashrc
 fi
-source ~/.bashrc
-echo "OK!"
+echo "OK! After that run: source ~/.bashrc"

@@ -23,9 +23,10 @@ hello_world project in docker container with xrdp+desktop+ros noetic full+gazebo
 4. Wait
 5. (In the first time) In the terminal run: `rosdep update`
 6. Run `./scripts/catkin_make.sh` in the repo
-7. In new terminal run `roscore`
-8. In new terminal run `rosrun hello_world hello_world_publisher.py`
-9. In new terminal run `rosrun hello_world hello_world_subscriber.py`
+7. Run `source ~/.bashrc`
+8. In new terminal run `roscore`
+9. In new terminal run `rosrun hello_world hello_world_publisher.py`
+10. In new terminal run `rosrun hello_world hello_world_subscriber.py`
 
 ## How to remote desktop
 1. Install [Remmina](https://remmina.org/)
