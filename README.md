@@ -18,7 +18,7 @@ hello_world project in docker container with xrdp+desktop+ros noetic full+gazebo
 
 ## How to run project
 1. `git clone git@github.com:ivlucky/ros_hello_world.git`
-2. `code .`
+2. `cd ros_hello_world/ && code .`
 3. Press F1 -> `Remote-Containers: Open Folder in container...`
 4. Wait
 5. (In the first time) In the terminal run: `rosdep update`
