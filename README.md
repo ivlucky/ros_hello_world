@@ -4,8 +4,9 @@ hello_world project in docker container with xrdp+desktop+ros noetic full+gazebo
 ## Requirements
 1. OS Ubuntu 20.04.3 LTS
 2. vscode
-3. 10 Gb free space (with a large margin)
-4. 8 Gb RAM
+3. Docker
+4. 10 Gb free space (with a large margin)
+5. 8 Gb RAM
 
 ## VScode extentions in local
 1. Remote development
@@ -16,9 +17,9 @@ hello_world project in docker container with xrdp+desktop+ros noetic full+gazebo
 2. rospy
 
 ## How to run project
-1. git clone git@github.com:ivlucky/ros_hello_world.git
-2. code .
-3. F1 -> Remote-Containers: Open folder in container
+1. `git clone git@github.com:ivlucky/ros_hello_world.git`
+2. `code .`
+3. Press F1 -> `Remote-Containers: Open Folder in container...`
 4. Wait
 5. (In the first time) In the terminal run: `rosdep update`
 6. Run `./scripts/catkin_make.sh` in the repo
