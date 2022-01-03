@@ -41,3 +41,6 @@ hello_world project in docker container with xrdp+desktop+ros noetic full+gazebo
 **Solution**: reboot your OS
 2. Unable to login after writing user/password
 **Solution**: remove and create container
+
+## Notes
+1. If you want to exit session without remove/create container, you have to Logout from session in rdp window
