@@ -59,4 +59,6 @@ COPY ./scripts/create_user.sh /create_user.sh
 COPY ./scripts/full_install.sh /full_install.sh
 RUN chmod +x /create_user.sh && /create_user.sh
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+USER ubuntu
+RUN whoami && sudo chmod +x /full_install.sh && sudo /full_install.sh
 EXPOSE 3389/tcp
