@@ -36,7 +36,7 @@ hello_world project in docker container with xrdp+desktop+ros noetic full+gazebo
 ## How to run Gazebo
 1. In terminal in Reminna rdp session run `rosrun gazebo_ros gazebo`
 
-## Ussues
+## Issues
 1. Russian locale in login 
 **Solution**: reboot your OS
 2. Unable to login after writing user/password
